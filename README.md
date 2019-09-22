@@ -9,4 +9,5 @@ $ sudo powerpill -S fontforge
 $ aria2c -x10 https://github.com/ryanoasis/nerd-fonts/archive/master.zip
 $ unzip nerd-fonts-master.zip
 $ ls Inter-*.otf |while read line;do ./nerd-fonts-master/font-patcher $line;done
+$ cp Inter*Nerd* ~/.fonts/
 ```
